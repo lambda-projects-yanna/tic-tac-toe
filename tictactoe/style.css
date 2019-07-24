@@ -1,0 +1,70 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    margin-top: 1%;
+}
+
+#main h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: blue;
+    margin-bottom: 0;
+}
+
+.app {
+    width: 50%;
+    margin: 0 auto;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tile {
+    border: solid blue 2px;
+    box-sizing: border-box;
+    width: 33%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app i {
+    display: none;
+}
+
+.app i.active {
+   display: inherit;
+   font-size: 5rem;
+   color: blue;
+}
+
+button {
+    color: blue;
+    width: 10%;
+    height: 6%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-color: blue;
+    background-color: black;
+}
+/* 
+p {
+    text-align: center;
+}
+
+span {
+    border: solid blue 2px;
+} */
